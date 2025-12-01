@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kangurong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#" class="header-logo">
+          <div class="logo-icon">🏓</div>
+          <div class="logo-text">
+            <span class="logo-title">Kangurong</span>
+            <span class="logo-subtitle">Torneo interno</span>
+          </div>
+        </a>
+        <nav class="header-nav">
+          <a href="#bracket" class="nav-link">Llaves</a>
+          <a href="#info" class="nav-link">Formato</a>
+          <a href="#players" class="nav-link">Jugadores</a>
+        </nav>
+        <div class="header-cta">
+          <a href="#bracket" class="btn-primary">Ver llaves del torneo</a>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+
+          <!-- TEXTOS -->
+          <div class="hero-content">
+            <div class="hero-tag">Kangurong · Kanguro Insurance</div>
+            <h1>Porque también <span class="hero-highlight">aseguramos</span> los buenos momentos.</h1>
+            <p class="hero-lead">
+              Estas son las llaves oficiales del torneo de ping pong de Kanguro.
+              <strong>16 jugadores, 9 llaves y solo un campeón.</strong>
+              Revisa los enfrentamientos y prepárate para la gloria.
+            </p>
+
+            <div class="hero-pills">
+              <div class="hero-pill">
+                <span class="pill-icon">⚡</span>
+                <span class="pill-text">Formato rápido: eliminación directa</span>
+              </div>
+              <div class="hero-pill">
+                <span class="pill-icon">🐾</span>
+                <span class="pill-text">Más juegos menos tickets</span>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#bracket" class="btn-primary btn-lg">Ver llaves del torneo</a>
+              <a href="#players" class="btn-secondary">Ver lista de jugadores</a>
+            </div>
+
+            <div class="hero-meta">
+              <span class="meta-pill">Round 1</span>
+              <span class="meta-pill meta-soft">9 llaves</span>
+              <span class="meta-pill meta-soft">Formato: eliminación directa</span>
+            </div>
+          </div>
+
+          <!-- IMAGEN DINÁMICA -->
+          <div class="hero-illustration">
+
+            <!-- Marca flotante (tu imagen) -->
+            <img
+              src="https://static.wixstatic.com/media/300d94_0000d315d271432aafe597bd5ede95dd~mv2.png"
+              alt="Kanguro Marca"
+              class="hero-brand-mark"
+            />
+
+            <!-- Blobs animados -->
+            <div class="hero-blob hero-blob-purple"></div>
+            <div class="hero-blob hero-blob-yellow"></div>
+
+            <!-- Imagen flotante -->
+            <div class="hero-image-wrapper float-bounce">
+              <img
+                src="assets/kanguro-hero-pingpong.png"
+                alt="Kanguro jugando ping pong"
+                class="hero-img-dynamic"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ==== INFO ==== -->
+      <section id="info" class="section section-info">
+        <div class="section-header">
+          <h2>Detalles del torneo</h2>
+          <p>Una experiencia diseñada para compartir con tus compañeros, pero con paletas en vez de pólizas.</p>
+        </div>
+
+        <div class="info-grid">
+
+          <article class="info-card">
+            <div class="info-icon">📍</div>
+            <h3>Formato</h3>
+            <p>Eliminación directa desde la primera ronda.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="info-icon">⏱️</div>
+            <h3>Ritmo Kanguro</h3>
+            <p>Partidos fáciles de agendar entre reuniones o slots de almuerzo.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="info-icon">🏆</div>
+            <h3>Solo un campeón</h3>
+            <p>Cada llave define quién sigue vivo. Avanza hasta coronar al gran ganador.</p>
+          </article>
+
+          <!-- NUEVOS CARDS -->
+          <article class="info-card">
+            <div class="info-icon">🏆</div>
+            <h3>Premios</h3>
+            <p><strong>Primer Puesto:</strong> 70% de lo recaudado + bono $200.000 Falabella.</p>
+            <p><strong>Segundo Puesto:</strong> 30% de lo recaudado + bono $100.000 Falabella.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="info-icon">🗓️</div>
+            <h3>Fechas & Compromiso</h3>
+            <p><strong>Inicio:</strong> 01 de diciembre.</p>
+            <p>Los partidos deben jugarse esta semana.</p>
+            <p><strong>Importante:</strong> No presentarse = eliminación automática.</p>
+          </article>
+
+        </div>
+      </section>
+
+
+      <!-- ==== BRACKET ==== -->
+      <!-- (tu bracket actual, no lo toqué) -->
+
+      <section id="bracket" class="section section-bracket">
+        <div class="section-header">
+          <h2>Llaves de eliminación · Ronda 1</h2>
+          <p>Un solo partido definira el paso a la siguiente ronda, no jugar el partido es descalificacion directa</p>
+        </div>
+
+        <section class="bracket">
+
+          <!-- IZQUIERDA -->
+          <div class="bracket-column">
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 1</span><span class="match-meta">Mesa 1</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">A1</span><div class="player-name">Camilo</div></div>
+                <div class="player-row"><span class="player-seed">A2</span><div class="player-name">Ma Long</div></div>
+              </div>
+            </article>
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 2</span><span class="match-meta">Mesa 2</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">A3</span><div class="player-name">elbarto</div></div>
+                <div class="player-row"><span class="player-seed">A4</span><div class="player-name">Yesid</div></div>
+              </div>
+            </article>
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 3</span><span class="match-meta">Mesa 3</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">A5</span><div class="player-name">Lucas</div></div>
+                <div class="player-row"><span class="player-seed">A6</span><div class="player-name">AndresB</div></div>
+              </div>
+            </article>
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 4</span><span class="match-meta">Mesa 4</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">A7</span><div class="player-name">Yasmin</div></div>
+                <div class="player-row"><span class="player-seed">A8</span><div class="player-name">Leidy</div></div>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- DERECHA -->
+          <div class="bracket-column">
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 5</span><span class="match-meta">Mesa 5</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">B1</span><div class="player-name">Juliana</div></div>
+                <div class="player-row"><span class="player-seed">B2</span><div class="player-name">vale</div></div>
+              </div>
+            </article>
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 6</span><span class="match-meta">Mesa 6</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">B3</span><div class="player-name">AleBla</div></div>
+                <div class="player-row"><span class="player-seed">B4</span><div class="player-name">manota</div></div>
+              </div>
+            </article>
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 7</span><span class="match-meta">Mesa 7</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">B5</span><div class="player-name">JULIO R</div></div>
+                <div class="player-row"><span class="player-seed">B6</span><div class="player-name">mbaq</div></div>
+              </div>
+            </article>
+
+            <article class="match-card">
+              <header class="match-header"><span class="match-label">Llave 8</span><span class="match-meta">Mesa 8</span></header>
+              <div class="match-body">
+                <div class="player-row"><span class="player-seed">B7</span><div class="player-name">Luis Eduardo</div></div>
+                <div class="player-row"><span class="player-seed">B8</span><div class="player-name">Juanp</div></div>
+              </div>
+            </article>
+
+          </div>
+
+        </section>
+      </section>
+
+
+      <!-- ==== PLAYERS ==== -->
+      <section id="players" class="section section-players">
+        <div class="section-header">
+          <h2>Lista de jugadores</h2>
+          <p>Todos los participantes del torneo.</p>
+        </div>
+
+        <div class="players-grid">
+          <div class="player-card"><span class="player-chip">1</span>Camilo</div>
+          <div class="player-card"><span class="player-chip">2</span>Ma Long</div>
+          <div class="player-card"><span class="player-chip">3</span>elbarto</div>
+          <div class="player-card"><span class="player-chip">4</span>Yesid</div>
+          <div class="player-card"><span class="player-chip">5</span>Lucas</div>
+          <div class="player-card"><span class="player-chip">6</span>AndresB</div>
+          <div class="player-card"><span class="player-chip">7</span>Yasmin</div>
+          <div class="player-card"><span class="player-chip">8</span>Leidy</div>
+          <div class="player-card"><span class="player-chip">9</span>Juliana</div>
+          <div class="player-card"><span class="player-chip">10</span>vale</div>
+          <div class="player-card"><span class="player-chip">11</span>AleBla</div>
+          <div class="player-card"><span class="player-chip">12</span>manota</div>
+          <div class="player-card"><span class="player-chip">13</span>JULIO R</div>
+          <div class="player-card"><span class="player-chip">14</span>mbaq</div>
+          <div class="player-card"><span class="player-chip">15</span>Luis Eduardo</div>
+          <div class="player-card"><span class="player-chip">16</span>Juanp</div>
+        </div>
+      </section>
+
+    </main>
+
+ <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo-icon">🏓</div>
+          <div class="footer-logo-text">
+            <span class="footer-title">Porque en tecnologia pensamos en TI</span>
+            <span class="footer-subtitle">🤓😘</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Torneo</h4>
+            <a href="#bracket">Llaves</a>
+            <a href="#players">Jugadores</a>
+            <a href="#info">Formato</a>
+          </div>
+          <div class="footer-column">
+            <h4>Equipo</h4>
+            <span>Organización interna Kanguro</span>
+            <span>Ping Pong Committee</span>
+          </div>
+          <div class="footer-column">
+            <h4>Notas</h4>
+            <span>Versión interna · Demo visual</span>
+            <span>Diseño inspirado en kanguroseguro.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year-span">2025</span> Kanguro Ping Pong Cup</span>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
